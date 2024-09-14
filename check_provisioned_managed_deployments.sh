@@ -55,7 +55,7 @@ for subscription in $subscriptions; do
             skuName=$(_jq '.sku.name')
             modelName=$(_jq '.properties.model.name')
 
-            if [ "$skuName" == "Provisioned-managed" ]; then
+            if [ "$skuName" == "ProvisionedManaged" ]; then
                 any_provisioned_managed=true
                 resources_with_provisioned_managed_deployments+="$resourceName (Resource Group: $resourceGroup, DeploymentName: $deploymentName, SKU Name: $skuName, ModelName: $modelName)\n"
             else
