@@ -2,6 +2,8 @@
 
 This repository contains a shell script that helps you identify all **Provisioned-managed** deployments within your Azure OpenAI resources across all subscriptions in your Azure tenant. This is crucial for preventing unexpected high charges due to unintended deployment configurations.
 
+[日本語のREADMEはこちら](./README_ja.md)
+
 ## Overview
 
 In Azure OpenAI Service, **Provisioned-managed** deployments provide dedicated compute resources for your models, offering high performance but at a higher cost. Managing these deployments effectively is crucial for cost optimization and resource management.

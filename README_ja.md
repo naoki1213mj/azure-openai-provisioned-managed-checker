@@ -2,6 +2,8 @@
 
 このリポジトリには、Azureテナント内のすべてのサブスクリプションをスキャンし、Azure OpenAIリソース内で **Provisioned-managed** なデプロイメントを特定するシェルスクリプトが含まれています。これは、意図しないデプロイ設定による予期せぬ高額課金を防止するために重要です。
 
+[English README is available here](./README.md)
+
 ## 概要
 
 Azure OpenAI Serviceにおいて、**Provisioned-managed** なデプロイメントは専用の計算リソースを提供し、高いパフォーマンスを実現しますが、その分コストも高くなります。
